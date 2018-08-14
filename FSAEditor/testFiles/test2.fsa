@@ -1,0 +1,14 @@
+state adl 300 100
+state mel 100 100
+state syd 100 300
+state per 300 300
+state hbt 500 100
+transition mel ev syd
+transition per ev adl
+transition per ev hbt
+transition adl ? mel
+transition syd ? adl
+transition hbt ? per
+initial per
+final syd
+final hbt

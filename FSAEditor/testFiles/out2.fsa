@@ -1,0 +1,7 @@
+state adl 375 63
+state mel 100 100
+state syd 642 318
+transition mel ev syd
+transition syd ev adl
+initial mel
+final adl

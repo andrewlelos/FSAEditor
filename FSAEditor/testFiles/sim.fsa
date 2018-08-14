@@ -1,0 +1,14 @@
+state q0 100 100
+state q1 100 300
+state q2 300 100
+state q3 300 300
+transition q0 ? q2
+transition q1 e q2
+transition q2 e q3
+transition q1 ? q3
+transition q3 f q0
+transition q2 f q1
+initial q0
+initial q1
+final q2
+final q1
